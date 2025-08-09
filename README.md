@@ -23,3 +23,7 @@ Now, we will explore the Cohere Python API to generate responses with history, s
 - Retrieval augmented generation (RAG)
 - Embeddings
 - Fine-tuning
+
+### Conclusion
+
+Today, we learned about the Cohere Command R+ model. We also learned about the Python API and how to fine-tune the model to generate custom responses. 
