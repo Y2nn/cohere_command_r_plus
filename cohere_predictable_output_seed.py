@@ -13,7 +13,6 @@ api_key = os.environ.get('COHERE_API_KEY')
 co = cohere.Client(api_key=api_key)
 
 
-# cohere dotenv
 if __name__ == '__main__':
     # Predictable output is a unique feature of Cohere.
     # By setting the seed argument, we can make the model generate the same response to the same prompt.

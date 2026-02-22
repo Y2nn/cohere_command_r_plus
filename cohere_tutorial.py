@@ -13,7 +13,6 @@ api_key = os.environ.get('COHERE_API_KEY')
 co = cohere.Client(api_key=api_key)
 
 
-# cohere dotenv
 if __name__ == '__main__':
     # To generate a response using the .chat() function, provide the model name and the message.
     response = co.chat(
